@@ -1,0 +1,6 @@
+a =""" Beautiful is better than ugly
+Although never is often better than *right* now
+Now is better than evener""" 
+print((a.count('is')), (a.count('better')), (a.count('never')))
+print (a.upper())
+print (a.replace('i','&'))
