@@ -1,0 +1,16 @@
+class Person:
+    def __init__(self,name):
+       self.name=name
+    def info(self):
+     print('Hello,my name is {}'.format(self.name))
+Name_1=Person('Karina')
+Name_1.info()
+
+
+class Car:
+    def __init__(self,name):
+        self.name=name
+    def move(self,speed):
+        return 'This {} moves with {} km/h'.format(self.name, 90speed)
+car_1=Car('Mersedes')
+print(car_1.move(input("please ")))
