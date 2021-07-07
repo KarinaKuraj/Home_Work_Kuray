@@ -1,6 +1,6 @@
-a=5
-b=6
-print (a+b)
+a=input("Enter your next number: ")
+b=input("Enter your next number: ")
+print (f"a+b={a+b}")
 print (a*b)
 print(a/b)
 print(a-b)
